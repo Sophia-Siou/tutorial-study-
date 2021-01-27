@@ -10,3 +10,5 @@ quadrant I: high loyal && high satis- named fans
 quadrant II: high loyal && low satis- named supporters
 III : low loyal && low satis- named allienated
 IV : low loyal && high satis- in between
+
+plus: add centriod of each clusters (fitting unscaled df)

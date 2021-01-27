@@ -34,6 +34,11 @@ cluster['cluspred'] = kmeans.fit_predict(xscale)
 
 plt.scatter(cluster['Satisfaction'], cluster['Loyalty'],
             c=cluster['cluspred'], cmap='rainbow')
+
+kmeans_unscale = KMeans(n_clusters=4).fit(x)
+centroids = kmeans_unscale.cluster_centers_
+plt.scatter(centroids[:, 0], centroids[:, 1], marker="x", c='b', s=50)
+
 plt.xlabel("Satisfaction")
 plt.ylabel("Loyalty")
 plt.savefig("clusters.png")
