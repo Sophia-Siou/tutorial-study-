@@ -1,0 +1,12 @@
+steps:
+1. read data (two cols && numeric vals only)
+2. using elbow method to determine the number of 
+    clusters needed (=4)
+3. fit scaled x to predict
+4. plot cols (predicted x and y)
+
+analysis of the graph
+quadrant I: high loyal && high satis- named fans
+quadrant II: high loyal && low satis- named supporters
+III : low loyal && low satis- named allienated
+IV : low loyal && high satis- in between
