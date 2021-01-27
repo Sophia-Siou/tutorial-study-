@@ -7,6 +7,7 @@ from sklearn.cluster import KMeans
 from sklearn import preprocessing
 
 #https://medium.com/code-to-express/k-means-clustering-for-beginners-using-python-from-scratch-f20e79c8ad00
+#https://stackoverflow.com/questions/59690058/kmeans-in-python-centroids-not-in-correct-position-how-do-i-unscale-them
 
 data = pd.read_csv("eg.csv")
 x = data.copy()
